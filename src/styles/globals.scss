@@ -1,0 +1,15 @@
+// Basic
+@import './basics/variables';
+@import './basics/base';
+@import './basics/helpers';
+@import './basics/typography';
+@import './basics/mixins';
+
+//Pages
+@import '../pages/Home/home.scss';
+@import '../pages/Error/error.scss';
+
+//Cmps
+@import '../components/Quiz/quiz';
+@import '../components/StatisticPopup/statistic-popup';
+@import '../components/StatisticPopup/DarkScreen/dark-screen';

@@ -1,0 +1,47 @@
+.quiz {
+    .hidden-name {
+        font-size: 30px;
+        border-block-start: 3px solid white;
+        border-block-end: 3px solid white;
+        border-radius: 3px;
+        text-align: center;
+        padding: 5px;
+        max-width: 500px;
+        margin: 0 auto 30px;
+    }
+    form {
+        margin: 0 auto 10px;
+        max-width: 500px;
+        input {
+            padding: 5px;
+            font-size: 22px;
+            border: 1px solid white;
+            border-radius: 5px;
+            text-align: center;
+            margin-block-end: 20px;
+            &::placeholder {
+                font-family: Poppins;
+            }
+        }
+        button {
+            @include for-button;
+        }
+        .top-btns,
+        .bottom-btns {
+            :first-child {
+                margin-inline-end: 10px;
+            }
+        }
+        .top-btns {
+            margin: 0 auto 10px;
+            > button {
+                font-size: 20px;
+            }
+        }
+        .bottom-btns {
+            > button {
+                font-size: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.error {
+    min-height: 100%;
+    p {
+        font-size: 48px;
+    }
+    a {
+        text-decoration: underline;
+        transition: 0.2s;
+        &:hover {
+            color: rgb(138, 138, 138);
+        }
+    }
+}

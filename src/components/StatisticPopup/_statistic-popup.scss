@@ -1,0 +1,27 @@
+.statistic-popup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4155f1;
+    width: 90%;
+    max-width: 300px;
+    height: 320px;
+    border-radius: 20px;
+    padding: 20px;
+    z-index: 5;
+    .popup-title {
+        text-align: center;
+        font-size: 30px;
+        margin-block-end: 15px;
+    }
+    .info {
+        margin-block-end: 30px;
+    }
+    .close-popup {
+        display: block;
+        margin: 0 auto;
+        width: 90px;
+        @include for-button;
+    }
+}
