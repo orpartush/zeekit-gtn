@@ -30,7 +30,7 @@ export default function Home() {
             {isStatisticPopupActive && <DarkScreen setIsActive={setIsStatisticPopupActive} />}
             {isStatisticPopupActive && <StatisticPopup setIsActive={setIsStatisticPopupActive} />}
             <header>
-                <p className="title">Guess The Tv Show</p>
+                <p className="title">Guess The TV Show</p>
             </header>
             <main className="quiz-container">
                 <Quiz tvShows={tvShowList} setIsPopupOn={setIsStatisticPopupActive} />
