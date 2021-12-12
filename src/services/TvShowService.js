@@ -10,7 +10,7 @@ async function query() {
             `https://api.themoviedb.org/3/tv/top_rated?api_key=${API_KEY}&language=en-US&page=1`
         );
         const tvShowsData = await response.json();
-        return tvShowsData.results.slice(0, 1);
+        return tvShowsData.results.slice(2, 7);
     } catch (err) {
         console.error('Error from query', err);
     }
